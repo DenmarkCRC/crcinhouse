@@ -1,6 +1,7 @@
 <template>
     <div class="bg-teal-300 text-black py-3 text-center">
-        <h1>Header</h1>
+        <router-link to="/">Home</router-link>|
+        <router-link to="/Contacts">Contacts</router-link>
     </div>
 </template>
 
